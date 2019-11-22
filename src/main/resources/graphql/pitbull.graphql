@@ -1,0 +1,4 @@
+type Pitbull implements Animal{
+    name: String
+    color: String
+}

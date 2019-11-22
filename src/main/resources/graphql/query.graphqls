@@ -1,0 +1,4 @@
+type Query {
+    animalByName: Animal
+    pitbull: Pitbull
+}
