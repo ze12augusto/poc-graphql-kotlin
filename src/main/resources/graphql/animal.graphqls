@@ -1,3 +1,13 @@
 interface Animal {
-    name: String
+    name: String!
+}
+
+type Pitbull implements Animal {
+    name: String!
+    color: String
+}
+
+type Bulldog implements Animal {
+    name: String!
+    weight: Int
 }

@@ -1,4 +1,8 @@
-type Query {
+schema {
+    query: QueryType
+}
+
+type QueryType {
     animalByName: Animal
-    pitbull: Pitbull
+    personByName: Person
 }

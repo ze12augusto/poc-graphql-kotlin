@@ -11,8 +11,4 @@ class AnimalQuery: GraphQLQueryResolver {
     fun getAnimalByName() : Animal {
         return Pitbull("hank", "vermelho")
     }
-
-    fun getPitbull(): Pitbull {
-        return Pitbull("hank", "amarelo")
-    }
 }

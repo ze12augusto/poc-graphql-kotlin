@@ -1,0 +1,13 @@
+interface Person {
+    name: String!
+}
+
+type Man implements Person {
+    name: String!
+    sport: String
+}
+
+type Woman implements Person {
+    name: String!
+    hairStyle: String
+}
