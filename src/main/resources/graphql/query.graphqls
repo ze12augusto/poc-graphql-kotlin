@@ -1,8 +1,7 @@
-schema {
-    query: QueryType
+type Query {
+    animalByName(name: String): Animal
+    animals: [Animal]
 }
 
-type QueryType {
-    animalByName: Animal
-    personByName: Person
+interface Animal {
 }

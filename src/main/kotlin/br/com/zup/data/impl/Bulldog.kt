@@ -1,8 +1,8 @@
 package br.com.zup.data.impl
 
-import br.com.zup.configuration.GenericInterfaceImpl
-import br.com.zup.data.Animal
+import br.com.zup.configuration.GraphQLType
+import br.com.zup.data.Dog
 
-@GenericInterfaceImpl
-class Bulldog(name: String, val weight: Int) : Animal(name) {
+@GraphQLType
+class Bulldog(val name: String, val weight: Int) : Dog {
 }

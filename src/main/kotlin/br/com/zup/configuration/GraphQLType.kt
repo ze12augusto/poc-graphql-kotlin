@@ -2,4 +2,4 @@ package br.com.zup.configuration
 
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
-annotation class GenericInterfaceImpl
+annotation class GraphQLType

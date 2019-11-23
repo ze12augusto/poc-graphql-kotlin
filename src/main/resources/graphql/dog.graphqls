@@ -1,0 +1,11 @@
+interface Dog {}
+
+type Pitbull implements Animal,Dog {
+    name: String!
+    color: String
+}
+
+type Bulldog implements Animal,Dog {
+    name: String!
+    weight: Int
+}

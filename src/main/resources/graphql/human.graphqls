@@ -1,0 +1,17 @@
+extend type Query {
+    humanByName(name: String): Animal
+    humans: [Animal]
+}
+
+interface Human {
+}
+
+type Man implements Animal, Human {
+    name: String!
+    sport: String
+}
+
+type Woman implements Animal, Human {
+    name: String!
+    hairStyle: String
+}

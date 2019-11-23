@@ -1,8 +1,8 @@
 package br.com.zup.data.impl
 
-import br.com.zup.configuration.GenericInterfaceImpl
-import br.com.zup.data.Person
+import br.com.zup.configuration.GraphQLType
+import br.com.zup.data.Human
 
-@GenericInterfaceImpl
-class Man(name: String, val sport: String) : Person(name) {
+@GraphQLType
+class Man(val name: String, val sport: String) : Human{
 }
